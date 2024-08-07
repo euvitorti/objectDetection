@@ -1,4 +1,4 @@
-# Visão Guiada 👓
+# Projeto Visão Guiada Em Desenvolvimento 👓
  
 ## Descrição do Projeto
 Este projeto visa desenvolver um software que guie pessoas cegas utilizando técnicas de detecção de objetos. O software utiliza a YOLO (You Only Look Once) para a detecção de objetos em tempo real através da câmera, e então fornecerá orientações auditivas para ajudar os usuários a navegar com segurança em diferentes ambientes.
