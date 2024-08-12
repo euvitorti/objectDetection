@@ -21,7 +21,7 @@ def speak(text):
 cap = cv2.VideoCapture("videos/omg.mp4")
 
 # Carregar modelo YOLO com pesos especificados
-model = YOLO("../Yolo-Weights/yolov8n.pt")
+model = YOLO("../models/yolov8n.pt")
 
 # Dicionário para traduzir os nomes das classes para português
 class_translation = {

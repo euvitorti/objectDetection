@@ -9,7 +9,7 @@ cap.set(3, 1280)  # Set the width of the captured video to 1280 pixels
 cap.set(4, 720)   # Set the height of the captured video to 720 pixels
 
 # Load YOLO model with specified weights
-model = YOLO("../Yolo-Weights/yolov8l.pt")
+model = YOLO("../models/yolov8l.pt")
 
 while True:
     success, img = cap.read()  # Capture a frame from the camera

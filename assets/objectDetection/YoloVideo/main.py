@@ -11,7 +11,7 @@
 #
 # # Inicializar a câmera e o modelo YOLO
 # cap = cv2.VideoCapture("videos/semaforo.mp4")
-# model = YOLO("../Yolo-Weights/yolov8n.pt")
+# model = YOLO("../models/yolov8n.pt")
 #
 # # Dicionário para traduzir os nomes das classes para português
 # class_translation = {
@@ -194,7 +194,7 @@ import threading
 
 # Inicializar a câmera e o modelo YOLO
 cap = cv2.VideoCapture("videos/carroSemaforo.mp4")
-model = YOLO("../Yolo-Weights/yolov8n.pt")
+model = YOLO("../models/yolov8n.pt")
 
 # Dicionário para traduzir os nomes das classes para português
 class_translation = {

@@ -20,7 +20,7 @@ cap.set(3, 1280)  # Set the width of the captured video to 1280 pixels
 cap.set(4, 720)
 
 # Carregar modelo YOLO com pesos especificados
-model = YOLO("../Yolo-Weights/yolov8n.pt")
+model = YOLO("../models/yolov8n.pt")
 
 # Dicionário para traduzir os nomes das classes para português
 class_translation = {

@@ -7,7 +7,7 @@ from ultralytics import YOLO
 cap = cv2.VideoCapture("../videos/bike.mp4")
 
 # Load YOLO model with specified weights
-model = YOLO("../Yolo-Weights/yolov8n.pt")
+model = YOLO("../models/yolov8n.pt")
 
 while True:
     success, img = cap.read()  # Capture a frame from the camera
@@ -100,7 +100,7 @@ cv2.destroyAllWindows()
 # cap = cv2.VideoCapture("videos/semaforo.mp4")
 #
 # # Carregar modelo YOLO com pesos especificados
-# model = YOLO("../Yolo-Weights/yolov8n.pt")
+# model = YOLO("../models/yolov8n.pt")
 #
 # # Dicionário para traduzir os nomes das classes para português
 # class_translation = {
